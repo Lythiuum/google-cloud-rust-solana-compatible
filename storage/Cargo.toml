@@ -66,3 +66,6 @@ hickory-dns = ["reqwest/hickory-dns", "google-cloud-auth?/hickory-dns"]
 trace = []
 auth = ["google-cloud-auth", "google-cloud-metadata"]
 external-account = ["google-cloud-auth?/external-account"]
+
+[patch.crates-io.pkcs8]
+git = "https://github.com/Lythiuum/formats.git"
